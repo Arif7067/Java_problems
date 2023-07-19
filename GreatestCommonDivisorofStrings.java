@@ -16,7 +16,7 @@ public class GreatestCommonDivisorofStrings {
         if(str1.startsWith(str2)){
             return gcdOfStrings(str1.substring(str2.length()),str2);
         }
-        return "";
+        return "No common divisor found";
 
     }
     public static void main(String args[]){
