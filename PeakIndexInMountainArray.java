@@ -18,14 +18,14 @@ package com.leetcode;
 //        Output: 1
 public class PeakIndexInMountainArray {
     public static void main (String [] args){
-        int [] arr = {0,2,1,0};
+        int [] arr = {5,1,3};
         int ans = peakIndexInMountainArray(arr);
         System.out.println(ans);
     }
     static int peakIndexInMountainArray(int[] arr) {
         int start = 0;
         int end = arr.length-1;
-        while(start!=end){
+        while(start<end){
             int mid = start + (end-start)/2;
             if(arr[mid]<arr[mid+1]){
                 start = mid+1;
@@ -33,7 +33,7 @@ public class PeakIndexInMountainArray {
                 end = mid;
             }
             if (start==end){
-                return start;
+                return end;
             }
         }
         return -1;
