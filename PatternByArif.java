@@ -13,7 +13,11 @@ public class PatternByArif {
 //        pattern9(5);
 //        pattern10(5);
 //        pattern11(5);
-        pattern12(5);
+//        pattern12(5);
+//        pattern13(5);
+//        pattern14(5);
+        pattern15(6);
+
 
 
     }
@@ -190,4 +194,76 @@ public class PatternByArif {
 
     }
 
-}
+    static void pattern13(int n){
+        for(int i=1;i<=n;i++){
+            if(i==n){
+                for (int j=1;j<=2*n-1;j++){
+                    System.out.print("*");
+                }
+            } else{
+                for (int j=1;j<=2*n-1;j++){
+                    if (j==n-i+1 || j==n+i-1) {
+                        System.out.print("*");
+                    } else{
+                        System.out.print(" ");
+                    }
+
+                }
+            }
+
+            System.out.println();
+        }
+
+    }
+
+    static void pattern14(int n){
+        for(int i=1;i<=n;i++){
+            if(i==1){
+                for (int j=1;j<=2*n-1;j++){
+                    System.out.print("*");
+                }
+            } else{
+                for (int j=1;j<=2*n-1;j++){
+                    if (j==i || j==2*n-i) {
+                        System.out.print("*");
+                    } else{
+                        System.out.print(" ");
+                    }
+
+                }
+            }
+
+            System.out.println();
+        }
+
+    }
+
+    static void pattern15(int n){
+        for(int i=1;i<=2*n-1;i++){
+            if(i<=n){
+                for (int j=1;j<=2*n-1;j++){
+                    if (j==n-i+1 || j==n+i-1) {
+                        System.out.print("*");
+                    } else{
+                        System.out.print(" ");
+                    }
+
+                }
+                System.out.println();
+            } else{
+                for (int j=1;j<=2*n-1;j++){
+                    if (j==i+1-n || j==2*n-1-(i-n) ){
+                        System.out.print("*");
+                    } else{
+                        System.out.print(" ");
+                    }
+
+                }
+                System.out.println();
+
+            }
+        }
+
+    }
+
+ }
