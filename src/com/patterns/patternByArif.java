@@ -1,6 +1,6 @@
 package com.patterns;
 
-public class patternByKunal {
+public class patternByArif {
     public static void main(String[] args){
 //        pattern1(5);
 //        pattern2(5);

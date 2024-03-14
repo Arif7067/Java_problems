@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03195d33-6007-47b4-bc4a-e602bad9e967" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/patterns/patternByKunal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/patternByKunal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
