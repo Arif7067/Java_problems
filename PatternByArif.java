@@ -1,6 +1,6 @@
 package com.leetcode;
 
-public class patternByArif {
+public class PatternByArif {
     public static void main(String[] args){
 //        pattern1(5);
 //        pattern2(5);
