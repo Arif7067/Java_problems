@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03195d33-6007-47b4-bc4a-e602bad9e967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ApnaCollege/Recursion1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ApnaCollege/Recursion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ApnaCollege/Recursion3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ApnaCollege/Recursion4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ApnaCollege/RecursionAdvanceLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/RecursionPractise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/Recursionlec27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/Recursionlec28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/RotataeBibarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/Spaceandtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arif/mathlec25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arif/RecursionLec29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arif/RecursionLec30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/patterns/patternByArif.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +37,22 @@
     &quot;last_opened_file_path&quot;: &quot;E:/preparation/Java/Placement_series/DSA_code/java_bootcam&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RotataeBibarySearch">
-    <configuration name="Recursionlec27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arif.Recursionlec27" />
+  <component name="RunManager" selected="Application.RecursionLec30">
+    <configuration name="RecursionLec29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arif.RecursionLec29" />
+      <module name="java_bootcam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionLec30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arif.RecursionLec30" />
       <module name="java_bootcam" />
       <extension name="coverage">
         <pattern>
@@ -88,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mathlec25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arif.mathlec25" />
-      <module name="java_bootcam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arif.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.steps" />
       <module name="java_bootcam" />
@@ -116,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionLec30" />
+        <item itemvalue="Application.RecursionLec29" />
         <item itemvalue="Application.RotataeBibarySearch" />
         <item itemvalue="Application.Recursionlec28" />
         <item itemvalue="Application.steps" />
-        <item itemvalue="Application.Recursionlec27" />
-        <item itemvalue="Application.mathlec25" />
       </list>
     </recent_temporary>
   </component>
